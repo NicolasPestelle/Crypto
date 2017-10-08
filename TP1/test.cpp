@@ -6,7 +6,7 @@ using namespace std;
 
 int main(int argc, char ** argv)
 {
-  string texte (argv[1].toString()), crypte;
+  /* string texte (argv[1].toString()), crypte;
     int decalage(0);
  
     // Demande du decalage a l'utilisateur
@@ -31,7 +31,7 @@ int main(int argc, char ** argv)
  
     cout << crypte;
 
-    
+    */
   return 0;
 }
 
