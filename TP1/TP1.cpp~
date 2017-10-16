@@ -64,8 +64,7 @@ int main(int argc,char** argv){
       std::ofstream ofs("texteChiffre.txt");
       
       while (std::getline(ifs, line)) { 
-	ofs << chiffrement(line, (char*)argv[3]);
-	cout << "chiffrement fait dans le fichier texteChiffre.txt" << endl;
+	 ofs << chiffrement(line, (char*)argv[3]);
       }
       
     }else if(argv[1] == string("-d")){
@@ -76,8 +75,6 @@ int main(int argc,char** argv){
 
       while (std::getline(ifs, line)) { 
 	ofs << dechiffrement(line, (char*)argv[3]);
-	cout << "dechiffrement fait dans le fichier texteDechiffre.txt" << endl;
-
       }
       
     }else{
